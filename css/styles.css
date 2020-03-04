@@ -1,3 +1,46 @@
+/*Selector de elementos*/
 table{
-    color: red;
+    background-color: greenyellow;
+    border-style: solid;
+    border-color:  red;
+    size: 1px;
+}
+
+thead{
+    background-color: blueviolet;
+}
+
+th{
+    border-style: inset;
+    border-color: goldenrod;
+}
+
+td{
+    border-style: solid;
+    border-color: black;
+}
+
+p{
+    font-size: 10px;
+}
+
+/*Selector de clase*/
+.pGreen{
+    color: black;
+    font-size: 20px;
+}
+
+a, li{
+    color: indigo;
+    font-size: 30px;
+}
+
+/*Selector de ID*/
+#titulo{
+    color: blue;
+}
+
+/*Selector Universal*/
+*{
+    color: gray;
 }
